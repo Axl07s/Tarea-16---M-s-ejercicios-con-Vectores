@@ -6,6 +6,7 @@
 #include <iostream>
 using namespace std;
 
+// Vector que Encuentra el Elemento Mayor
 int VecEncuentraMayor(int x[], int total) // Vector que encuentra el elemento mayor
 {
     int mayor = x[0]; // Asumir que el primer elemento es el mayor inicialmente
@@ -35,8 +36,8 @@ int VecEncuentraMenor(int x[], int total)
 
 int main()
 {
-    const int MAX = 10;
-    int x[MAX] = {34, 7, 23, 32, 5, 62, 78, 90, 3, 21};
+    const int MAX = 10; // Elementos Máximos del vector
+    int x[MAX] = {34, 7, 23, 32, 5, 62, 78, 90, 3, 21}; // Elementos del vector
 
     cout << "El vector es:";
     for (int i = 0; i < MAX; i++)
@@ -44,10 +45,10 @@ int main()
         cout << " " << x[i];
     }
 
-    int mayor = VecEncuentraMayor(x, MAX);
+    int mayor = VecEncuentraMayor(x, MAX); // Imprime el Elemnto Mayor del Vector
     cout << endl << "El elemento mayor en el vector es: " << mayor << endl;
 
-    int menor = VecEncuentraMenor(x, MAX);
+    int menor = VecEncuentraMenor(x, MAX); // Imprime el Elemento Menor del Vector
     cout << "El elemento menor en el vector es: " << menor << endl;
 
     return 0;
