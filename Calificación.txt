@@ -1,0 +1,5 @@
+Calificación: 2.2/3
+
+Debe documentar todas las funciones
+Falta un ejercicio
+
